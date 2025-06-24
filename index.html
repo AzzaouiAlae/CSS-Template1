@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Templeate 1</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="CSS/Normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/font-style.css">
+</head>
+
+<body class="poppins-regular">
+    
+    <nav class="grid-system">
+        <img src="Images/logo.png" alt="Logo" class="img-logo">
+        <label for="menu-click" class="tree-lines-btn">
+            <img src="Images/icon11.png" alt="Logo">
+        </label>
+    </nav>
+    <input id="menu-click" type="checkbox" hidden>
+    <aside class="side-bar" >
+        <label for="menu-click">
+            x
+        </label>
+        <p>Menu</p>
+        <ul>
+            <a href="index.html">Home</a>
+            <a onclick="document.getElementById('menu-click').checked = false;" href="#services">Services</a>
+            <a onclick="document.getElementById('menu-click').checked = false;" href="#portfolio">Portfolio</a>
+            <a onclick="document.getElementById('menu-click').checked = false;" href="#about">About</a>
+        </ul>
+        <p>Get in touch</p>
+        <ul>
+            <a onclick="document.getElementById('menu-click').checked = false;" href="#contact">Contact Me</a>
+        </ul>
+        
+    </aside>
+    <section class="welcome">
+        <h1 class="poppins-extrabold big-Text-font-color">Hello There!</h1>
+        <span>We are Leon - Super Creative & Minimal<br>Agency Web Template</span>
+    </section>
+    <section id="services"  class="services">
+        <div class="category1">
+            <div class="services-type1">
+                <img src="Images/icon1.png" alt="">
+                <div class="poppins-extrabold service-titles">Tell Us Your Idea</div>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum placeat enim
+                    aliquam vero officiis ipsa
+                    magni</span>
+            </div>
+            <div class="services-type1">
+                <img src="Images/icon2.png" alt="">
+                <div class="poppins-extrabold service-titles">We Will Do All The Work</div>
+                <span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum placeat enim
+                    aliquam vero officiis ipsa
+                    magni</span>
+            </div>
+            <div class="services-type1">
+                <img src="Images/icon3.png" alt="">
+                <div class="poppins-extrabold service-titles">Your Product is Worldwide</div>
+                <span >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum placeat enim
+                    aliquam vero officiis ipsa
+                    magni</span>
+            </div>
+        </div>
+        <div class="poppins-extrabold section-title">
+            services
+            <div class="poppins-regular">Don't be busy, be productive</div>
+        </div>
+        <div class="category2">
+            <div class="services-type2">
+                <img src="Images/icon4.png" alt="">
+                <div class="poppins-extrabold service-titles">Graphic Design</div>
+                <span >Graphic design is the process of visual
+                    communication and problem-solving
+                    using one or more of typography,
+                    photography and illustration.</span>
+            </div>
+            <div class="services-type2">
+                <img src="Images/icon5.png" alt="">
+                <div class="poppins-extrabold service-titles">UI & UX</div>
+                <span >Process of enhancing user satisfaction
+                    with a product by improving the
+                    usability, accessibility, and pleasure
+                    provided in the interaction.</span>
+            </div>
+            <div class="services-type2">
+                <img src="Images/icon6.png" alt="">
+                <div class="poppins-extrabold service-titles">Web Design</div>
+                <span >Web design encompasses many different
+                    skills and disciplines in the production
+                    and maintenance of websites.</span>
+            </div>
+            <div class="services-type2">
+                <img src="Images/icon7.png" alt="">
+                <div class="poppins-extrabold service-titles">Web Development</div>
+                <span >Web development is a broad term for
+                    the work involved in developing a web site
+                    for the Internet or an intranet.</span>
+            </div>
+            <div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="section-title poppins-extrabold">
+            portfolio
+            <div class="poppins-regular">if you do it right, it will last forever.</div>
+        </div>
+        <div class="project">
+            <div></div>
+            <div class="poppins-extrabold service-titles">Project Here</div>
+            <div >
+                My creative ability is very difficult to measure because it can manifest in so many surprising and.
+            </div>
+        </div>
+        <div class="project">
+            <div></div>
+            <div class="poppins-extrabold service-titles">Project Here</div>
+            <div >
+                My creative ability is very difficult to measure because it can manifest in so many surprising and.
+            </div>
+        </div>
+        <div class="project">
+            <div></div>
+            <div class="poppins-extrabold service-titles">Project Here</div>
+            <div >
+                My creative ability is very difficult to measure because it can manifest in so many surprising and.
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="section-title poppins-extrabold">
+            about
+            <div class="poppins-regular">Less is more work</div>
+        </div>
+        <div>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <img src="Images/about.jpg" alt="">
+            </div>
+            <div class="poppins-extrabold service-titles">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliqui</div>
+            <hr>
+            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliqu</div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="section-title poppins-extrabold">
+            contact
+            <div class="poppins-regular">we are born to create</div>
+        </div>
+        <div class="poppins-extrabold service-titles">Feel free to drop us a line at:</div>
+        <div class="poppins-extrabold titles-color">azzaoui@outlook.com</div>
+        <div>
+            find us on social networks:
+            <img src="Images/icon8.png" alt="">
+            <img src="Images/icon9.png" alt="">
+            <img src="Images/icon10.png" alt="">
+        </div>
+    </section>
+    <footer>
+        2019 -
+        <span>Leon</span>,
+        All Right Reserved
+    </footer>
+</body>
+
+</html>
